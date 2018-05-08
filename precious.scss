@@ -1,0 +1,56 @@
+/* variables */
+$orange: orange;
+$gold: gold;
+$darkgrey: #505050;
+
+/* mixins */
+@mixin ring($size, $color) {
+  border : 5px solid $color;
+  border-radius : 50%;
+  height: $size;
+  width: $size;
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: 5px 5px 5px darken($color, 25%);
+
+}
+@mixin text {
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 25px;
+  margin-left:25px;
+
+}
+@mixin alignement{
+  display : flex;
+  justify-content : center;
+  padding-bottom: 100px;
+}
+
+/* include */
+.text {
+  @include text;
+}
+
+.element{
+  @include alignement;
+}
+
+.ring1 {
+  @include ring(70px, $orange);
+}
+
+.ring2 {
+  @include ring(100px, $gold);
+}
+
+/* loop & nesting */
+@for $i from 1 through 6 {
+  .ring3_#{$i} {
+    @include ring($i * 15px, $darkgrey);
+    padding : $i*10px;
+    margin-left : $i*-10px;
+
+  }
+}

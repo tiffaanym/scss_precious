@@ -1,0 +1,109 @@
+/* Compilation du SCSS avec sassmeister.com */
+
+/* mixins */
+/* include */
+.text {
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.element {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.ring1 {
+    border: 5px solid orange;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 5px 5px 5px #805300;
+}
+
+.ring2 {
+    border: 5px solid gold;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 5px 5px 5px #806c00;
+}
+
+.ring3_1 {
+    border: 5px solid #505050;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 5px 5px 5px #101010;
+    padding: 10px;
+    margin-left: -10px;
+}
+
+.ring3_2 {
+    border: 5px solid #505050;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 5px 5px 5px #101010;
+    padding: 20px;
+    margin-left: -20px;
+}
+
+.ring3_3 {
+    border: 5px solid #505050;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 5px 5px 5px #101010;
+    padding: 30px;
+    margin-left: -30px;
+}
+
+.ring3_4 {
+    border: 5px solid #505050;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 5px 5px 5px #101010;
+    padding: 40px;
+    margin-left: -40px;
+}
+
+.ring3_5 {
+    border: 5px solid #505050;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 5px 5px 5px #101010;
+    padding: 50px;
+    margin-left: -50px;
+}
+
+.ring3_6 {
+    border: 5px solid #505050;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 5px 5px 5px #101010;
+    padding: 60px;
+    margin-left: -60px;
+}
